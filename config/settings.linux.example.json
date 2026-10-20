@@ -1,0 +1,21 @@
+{
+  "api_key": "",
+  "data_dir": "/opt/nmpa-service-data",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "node_executable": "node",
+  "npm_executable": "npm",
+  "mysqldump": "mysqldump",
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "ak_medical",
+    "username": "nmpa_collector",
+    "password": ""
+  },
+  "table": "t_medical_device",
+  "daily_enabled": false,
+  "daily_max_attempts": 3,
+  "daily_retry_seconds": 60,
+  "daily_retry_max_seconds": 3600
+}

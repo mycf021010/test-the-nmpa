@@ -1,0 +1,6 @@
+.venv/
+node_modules/
+__pycache__/
+config/settings.local.json
+service_data/
+*.log

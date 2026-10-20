@@ -1,0 +1,9 @@
+{
+  "name": "nmpa-js-research",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Experimental DOM environment for NMPA challenge research; production entry is python -m nmpa",
+  "dependencies": {
+    "jsdom": "^29.1.1"
+  }
+}
