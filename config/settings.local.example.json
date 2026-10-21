@@ -1,0 +1,21 @@
+{
+  "api_key": "",
+  "data_dir": "./service_data_313",
+  "host": "127.0.0.1",
+  "port": 8000,
+  "node_executable": "node",
+  "npm_executable": "npm",
+  "mysqldump": "C:/Program Files/MySQL/MySQL Server 8.4/bin/mysqldump.exe",
+  "mysql": {
+    "host": "127.0.0.1",
+    "port": 3306,
+    "database": "ak_medical",
+    "username": "nmpa_local",
+    "password": ""
+  },
+  "table": "t_medical_device",
+  "daily_enabled": true,
+  "daily_max_attempts": 3,
+  "daily_retry_seconds": 60,
+  "daily_retry_max_seconds": 3600
+}
